@@ -162,20 +162,7 @@ if (searchInput) {
   });
 }
 
-<script>
-document.addEventListener("click", (e) => {
-  const media = e.target;
-
-  if (media.tagName === "VIDEO" || media.tagName === "AUDIO") {
-    if (media.paused) {
-      media.play();
-    } else {
-      media.pause();
-    }
-  }
-});
-</script>
-
+<
 
 
 
